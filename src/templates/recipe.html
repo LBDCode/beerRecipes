@@ -1,0 +1,59 @@
+{% extends "index.html" %}
+{% block content %}
+
+
+    <div class="container recipe-div">
+        <div class="row">
+            <div class="col-md-7">
+                    <h3> {{ recipe.name}} </h3>
+                    <p>Created by:</p>
+                    <p>IBU: {{ recipe.ibu }}</p>
+                    <div> {{ recipe.description}} </div>
+                    <br>
+                    <p>Yield:  {{ recipe.yld }} gallons</p>
+                    <button type="button">Copy</button>
+                    <button type="button">Personalize</button>
+
+            </div>
+            <div class="col-md-5">
+                <img src="{{ url_for('static', filename='assets/brown.jpg') }}">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <h5> Ingredients </h5>
+                    <table class="table">
+                          <thead>
+                            <tr>
+                              <th scope="col">Quantity</th>
+                              <th scope="col">Unit</th>
+                              <th scope="col">Item</th>
+                            </tr>
+                          </thead>
+                          <tbody id="ingred-rows">
+                            {% for ingredient in recipe.ingredients %}
+                                <tr>
+                                <td>{{ ingredient.quantity }}</td>
+                                <td>{{ ingredient.unit}}</td>
+                                <td>{{ ingredient.description }}</td>
+                                </tr>
+                            {% endfor %}
+
+                          </tbody>
+                    </table>
+        </div>
+        <hr>
+        <div class="row">
+
+            <h5> Instructions </h5>
+            <p>{{ recipe.instructions }}</p>
+
+
+        </div>
+    </div>
+
+
+<script src="{{ url_for('static', filename='js/recipe.js') }}"></script>
+
+
+{% endblock %}

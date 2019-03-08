@@ -1,0 +1,93 @@
+
+{% extends "index.html" %}
+{% block content %}
+
+
+<div class="recipe-banner" style="background-color:blue; height: 150px;">
+
+
+</div>
+
+<div>
+    <div class="container">
+        <form id="new-recipe">
+            <div class="row">
+                <div class="col left">
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="name">Beer Name</label>
+                            <input type="text" id="name" class="form-control" name="name">
+                         </div>
+                    </div>
+                    <div class="row">
+                         <div class="form-group">
+                            <label for="style">Style</label>
+                            <input type="text" id="style" class="form-control" name="style">
+                         </div>
+                    </div>
+                    <div class="row">
+                         <div class="col">
+                             <div class="form-group">
+                                <label for="ibu">IBU</label>
+                                <input type="text" id="ibu" class="form-control" name="ibu">
+                             </div>
+                         </div>
+                         <div class="col">
+                            <div class="form-group">
+                                <label for="yield">Batch Yield</label>
+                                <input type="text" id="yield" class="form-control" name="yield">
+                            </div>
+                         </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="description">Description</label>
+                            <textarea rpws="7" id="description" class="form-control" name="description"></textarea>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="col right">
+
+                    <row id="ingred-paste">
+                        <div class="form-group">
+                            <label for="ingredients">Ingredients</label>
+                            <textarea rows="7" id="ingredients" class="form-control" name="ingredients"></textarea>
+                        </div>
+                        <button class="btn btn-info" id="parse-ingredients">Format Ingredients</button>
+
+                    </row>
+                    <row id="ingred-table">
+                        <table class="table hidden">
+                          <thead>
+                            <tr>
+                              <th scope="col">Quantity</th>
+                              <th scope="col">Unit</th>
+                              <th scope="col">Item</th>
+                            </tr>
+                          </thead>
+                          <tbody id="ingred-rows">
+
+                          </tbody>
+                        </table>
+                        <button class="btn btn-info" id="add-ingredients">Add Ingredients</button>
+
+                    </row>
+                    <row>
+                        <div class="form-group">
+                            <label for="directions">Brew Directions</label>
+                            <textarea row="7" id="directions" class="form-control" name="Directions"></textarea>
+                        </div>
+                        <button class="btn btn-info" id="submit-button">Save Recipe</button>
+                    </row>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<script src="{{ url_for('static', filename='js/recipe.js') }}"></script>
+
+{% endblock %}
+

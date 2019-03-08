@@ -1,0 +1,38 @@
+{% extends "index.html" %}
+{% block content %}
+
+<h1>This is the beer grid</h1>
+
+  <div id="myGrid" class="ag-theme-balham"></div>
+
+  <script type="text/javascript" charset="utf-8">
+    // specify the columns
+    var columnDefs = [
+        {headerName: "Name", field: "name", sortable: true, filter: true },
+        {headerName: "Style", field: "style_id", sortable: true, filter: true },
+        {headerName: "IBUs", field: "ibu", sortable: true, filter: true },
+        {headerName: "Yield", field: "yld", sortable: true, filter: true },
+        {headerName: "Description", field: "description", sortable: true, filter: true }
+    ];
+
+
+    // let the grid know which columns and what data to use
+    var gridOptions = {
+      columnDefs: columnDefs
+    };
+
+  // lookup the container we want the Grid to use
+  var eGridDiv = document.querySelector('#myGrid');
+
+  // create the grid passing in the div to use together with the columns & data we want to use
+  new agGrid.Grid(eGridDiv, gridOptions);
+
+  fetch('/api/recipes').then(function(response) {
+    return response.json();
+  }).then(function(data) {
+    gridOptions.api.setRowData(data);
+  })
+
+  </script>
+
+{% endblock %}

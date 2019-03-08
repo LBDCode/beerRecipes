@@ -1,0 +1,126 @@
+body {
+    font-family: "Source Serif Pro",serif;
+}
+
+h2 {
+    color: #898c32;
+}
+
+button {
+    background-color: #898c32;
+    border-color: #898c32;
+}
+
+.custom-nav {
+    background-color: #ffffff;
+    width: 70px;
+}
+
+.custom-brand {
+    font-size: 40px;
+    color: #898c32!important;
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.find-beer{
+    margin-top: 10px;
+    height: 400px;
+    background-image: url(../assets/grain.jpg);
+    opacity: .95;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: #f1f2f2;
+    font-family: "Source Serif Pro",serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.search-form {
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    align-content: center !important;
+}
+
+.search-box{
+    margin-top: 70px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: #f1f2f2;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.search-link {
+    color: #ffffff;
+    font-family: "Source Serif Pro",serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.main-content {
+    justify-content: center;
+    text-align: center;
+    align-content: center !important;
+}
+
+.beer-card {
+    height:380px;
+    max-width: 250px;
+    font-size: 14px;
+}
+
+.beer-link {
+    color: black;
+}
+
+.card-descrip {
+    font-size: 14px;
+    line-height: 1;
+    text-align: left;
+}
+
+.style-list {
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    padding: 15px;
+}
+
+.beer-styles {
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    float: none;
+}
+
+.beer-main {
+    margin-top: 30px;
+}
+
+.style-img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 20px 40px;
+    display: inline-block;
+    float: none;
+}
+
+.recipe-div{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    max-width: 75%;
+    line-height: 1;
+}
