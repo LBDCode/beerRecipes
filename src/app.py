@@ -42,7 +42,7 @@ def recipe_one(recipe_id):
 @app.route('/recipes/edit/<string:_id>', methods=['POST', 'GET'])
 def edit_recipe(_id):
     if request.method == 'GET':
-        id = "ObjectId(" + '"' + _id + '")'
+        # id = "ObjectId(" + '"' + _id + '")'
         recipe = Recipe.from_mongo(_id)
         print(recipe._id, recipe.name)
         return render_template('new_recipe.html')

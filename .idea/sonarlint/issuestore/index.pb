@@ -32,3 +32,9 @@ O
 requirements.txt,1\9\19359a61ae2446b51b549167b014da2fcf265768
 M
 src/static/js/recipes-grid.js,a\5\a5a162eae75de4b1b442e301b876dc89f300cd5d
+K
+src/templates/new_blog.html,e\5\e572137404d81a6405085b6f7b8ec5f1590ed6dd
+?
+src/__init__.py,b\1\b141e8a708cfc0de96ab25c59ca83087cbddf7fa
+F
+src/common/__init__.py,3\0\30ce1e02b575e689bd70c26d9d6e68ab4407fbac

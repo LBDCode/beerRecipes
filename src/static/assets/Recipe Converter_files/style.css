@@ -83,17 +83,13 @@ h2 {
 
 
 .beer-card {
+    height:380px;
     max-width: 250px;
     font-size: 14px;
 }
 
 .beer-link {
     color: black;
-}
-
-.card-title {
-    background-color: #222;
-    color: #fff;
 }
 
 .card-descrip {
@@ -132,7 +128,8 @@ h2 {
 .beer-main {
     margin:100px 0 50px 0;
     padding: 15px;
-    border: 2px solid rgba(0,0,0,.075);
+    box-shadow:
+        0 0 0 2px hsl(0, 0%, 80%);
 }
 
 .recipe-header {
@@ -145,7 +142,6 @@ h2 {
     padding: 10px 20px;
     background-color: #898c32;
     font-size: 24px;
-    max-height: 150px;
 }
 
 .jumbo-browse {
