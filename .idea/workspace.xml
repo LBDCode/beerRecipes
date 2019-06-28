@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/templates/index.html" description="    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/..." line="19" />
+    <bookmark url="file://$PROJECT_DIR$/src/static/css/style.css" description="/*.beer-card {&#10;    margin: 5px 10px;&#10;    box-sh&#10;}*..." line="86" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dfbf665a-15a3-45d6-af6b-3d152fda226a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/assets/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/assets/logo2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/js/recipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/js/recipe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,31 +19,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="beer_converter" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="125" selection-start-line="124" selection-end-line="125" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#2;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="72">
+              <caret line="117" column="11" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/static/assets/logo2.png">
+        <entry file="file://$PROJECT_DIR$/src/static/js/recipe.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/static/assets/brown.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -57,16 +62,6 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/static/assets/brown.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/static/assets/hops.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -78,21 +73,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Blog</find>
-      <find>get</find>
-      <find>get_</find>
-      <find>data</find>
-      <find>border</find>
-      <find>style_po</find>
-      <find>styl</find>
-      <find>style-i</find>
-      <find>brand</find>
-      <find>recipe-</find>
-      <find>recipes.html</find>
-      <find>gri</find>
-      <find>index</find>
-      <find>recipes</find>
-      <find>content_type</find>
       <find>brewit</find>
       <find>search</find>
       <find>button</find>
@@ -102,8 +82,27 @@
       <find>jumbotron</find>
       <find>jumbo</find>
       <find>main</find>
+      <find>beer-im</find>
+      <find>imag</find>
+      <find>style-</find>
+      <find>beer-st</find>
+      <find>style-i</find>
+      <find>beer-s</find>
+      <find>beer-m</find>
+      <find>reci</find>
+      <find>style-lis</find>
+      <find>browse-tag</find>
+      <find>beer</find>
+      <find>img</find>
+      <find>beer-c</find>
+      <find>card-im</find>
+      <find>card-bo</find>
+      <find>card-ti</find>
+      <find>tit</find>
+      <find>beer-li</find>
       <find>card-t</find>
       <find>card</find>
+      <find>card-d</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,7 +115,6 @@
         <option value="$PROJECT_DIR$/src/models/blog.py" />
         <option value="$PROJECT_DIR$/src/models/user.py" />
         <option value="$PROJECT_DIR$/src/models/styles.py" />
-        <option value="$PROJECT_DIR$/src/static/js/recipe.js" />
         <option value="$PROJECT_DIR$/src/templates/edit.html" />
         <option value="$PROJECT_DIR$/src/templates/new_recipe.html" />
         <option value="$PROJECT_DIR$/src/common/database.py" />
@@ -127,8 +125,9 @@
         <option value="$PROJECT_DIR$/venv/.gitignore" />
         <option value="$PROJECT_DIR$/src/templates/recipes_grid.html" />
         <option value="$PROJECT_DIR$/src/app.py" />
-        <option value="$PROJECT_DIR$/src/static/css/style.css" />
+        <option value="$PROJECT_DIR$/src/static/js/recipe.js" />
         <option value="$PROJECT_DIR$/src/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/static/css/style.css" />
       </list>
     </option>
   </component>
@@ -144,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,18 +154,6 @@
               <item name="beer_converter" type="b2602c69:ProjectViewProjectNode" />
               <item name="beer_converter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beer_converter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beer_converter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beer_converter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beer_converter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beer_converter" type="b2602c69:ProjectViewProjectNode" />
@@ -186,12 +172,27 @@
               <item name="beer_converter" type="b2602c69:ProjectViewProjectNode" />
               <item name="beer_converter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beer_converter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beer_converter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beer_converter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beer_converter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,14 +281,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50769234" side_tool="true" weight="0.25074404" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.4923077" visible="true" weight="0.32514882" />
+      <window_info id="Favorites" order="1" sideWeight="0.5058824" side_tool="true" weight="0.13244048" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49411765" visible="true" weight="0.2872024" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49702382" weight="0.30441898" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49627978" weight="0.30441898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39898133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,7 +295,7 @@
       <window_info anchor="bottom" id="SonarLint" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5029762" side_tool="true" weight="0.24549918" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5037202" side_tool="true" weight="0.30441898" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -359,13 +359,6 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/js/recipe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -459,23 +452,6 @@
     <entry file="file://$PROJECT_DIR$/src/static/assets/Homebrew01.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="125" selection-start-line="124" selection-end-line="125" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#2;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/static/assets/logo2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -485,14 +461,48 @@
     <entry file="file://$PROJECT_DIR$/src/static/assets/homebrew.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/assets/grain.jpg">
+    <entry file="file://$PROJECT_DIR$/src/static/assets/hops.jpg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/js/recipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/static/assets/brown.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/assets/hops.jpg">
+    <entry file="file://$PROJECT_DIR$/src/static/assets/grain.jpg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/assets/beer2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/assets/beer3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/assets/beer4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#section#2;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="117" column="11" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

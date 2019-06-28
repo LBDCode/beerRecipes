@@ -1,3 +1,41 @@
+$(document).ready(function(){
+
+  $('.beer-styles').slick({
+      prevArrow:"<i class='fas fa-chevron-left  left carousel-arrows'></i>",
+      nextArrow:"<i class='fas fa-chevron-right right carousel-arrows'></i>",
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+  });
+});
+
 $("#submit-button").on("click", function(event) {
     event.preventDefault();
 

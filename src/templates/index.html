@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Recipe Converter</title>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -12,12 +15,15 @@
     <script src="https://unpkg.com/ag-grid-community/dist/ag-grid-community.min.noStyle.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-grid.css">
     <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-theme-balham.css">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
+
 </head>
 <div>
 
 <div class="container">
   <nav class="navbar navbar-light navbar-expand-md">
-
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -66,7 +72,8 @@
     </div>
 
     </nav>
-
+    <hr style="margin-top: 0">
+    <hr>
     {% block content %}
 
     <section class="find-banner">
@@ -85,30 +92,43 @@
         </div>
     </section>
 
-    <section class="style-list">
-        <div class="col-12">
-            <hr>
-            <h2>Browse by Style</h2>
-
-            <div class="beer-styles">
-                <a href="/browse"><img class="style-img" src="{{ url_for('static', filename='assets/brown.jpg') }}"></a>
-                <a href="/browse"><img class="style-img" src="{{ url_for('static', filename='assets/brown.jpg') }}"></a>
-                <a href="/browse"><img class="style-img" src="{{ url_for('static', filename='assets/brown.jpg') }}"></a>
-                <a href="/browse"><img class="style-img" src="{{ url_for('static', filename='assets/brown.jpg') }}"></a>
-                <a href="/browse"><img class="style-img" src="{{ url_for('static', filename='assets/brown.jpg') }}"></a>
-            </div>
-
-            <hr>
+    <section class="container style-list">
+        <div class="browse-header-row row">
+            <h2 class="recipe-header">Browse Styles</h2>
         </div>
+        <hr>
+        <div class="beer-styles">
+            <div>
+                <a href="/browse"><img class="style-img" src="{{ url_for('static', filename='assets/brown.jpg') }}"></a>
+                <h4 class="style-tag">brown ale</h4>
+            </div>
+            <div>
+                <a href="/browse"><img class="style-img" src="{{ url_for('static', filename='assets/brown.jpg') }}"></a>
+                <h4 class="style-tag">brown ale</h4>
+            </div>
+            <div>
+                <a href="/browse"><img class="style-img" src="{{ url_for('static', filename='assets/brown.jpg') }}"></a>
+                <h4 class="style-tag">brown ale</h4>
+            </div>
+            <div>
+                <a href="/browse"><img class="style-img" src="{{ url_for('static', filename='assets/brown.jpg') }}"></a>
+                <h4 class="style-tag">brown ale</h4>
+            </div>
+            <div>
+                <a href="/browse"><img class="style-img" src="{{ url_for('static', filename='assets/brown.jpg') }}"></a>
+                <h4 class="style-tag">brown ale</h4>
+            </div>
+        </div>
+        <hr>
     </section>
 
     <section class="main-content">
         <div class="jumbostron jumbotron-fluid jumbo-browse">
             <div class="row">
-                <div class="browse-text col-6">
+                <div class="browse-text col-12 col-md-6 order-2 order-md-1">
                     <h3 class="browse-tagline">Browse some of our most popular homebrew recipes - there's something for everyone.</h3>
                 </div>
-                <div class="col-6 pannel-browse">
+                <div class="col-12 col-md-6 order-1 order-md-2 pannel-browse">
                     <h1 class="browse-header">Get inspired.</h1>
                 </div>
             </div>
@@ -116,17 +136,18 @@
         <div class="container beer-main">
             <div class="row">
                 <h2 class="recipe-header">Browse Recipes</h2>
-            <div class="card-columns">
+            </div>
+            <div class="row recipe-cards">
                 {% for recipe in recipes %}
                     <div class="card beer-card" style="width: 18rem;">
                       <a class="beer-link" href="/recipe/{{ recipe._id }}"><img src="{{ url_for('static', filename='assets/brown.jpg') }}" class="card-img-top card-img" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">{{ recipe.name }}</h5>
-                        <p class="card-text card-descrip">{{ recipe.description }}</p>
+                      <div class="card-body card-descrip">
+                        <h5 class="card-title"><img class="card-logo" src="{{ url_for('static', filename='assets/logo2.png') }}">{{ recipe.name }}</h5>
+                        <!--<p class="card-text card-descrip">{{ recipe.description }}</p>-->
                       </div></a>
                     </div>
+
                 {% endfor %}
-            </div>
             </div>
         </div>
         <hr>
@@ -136,6 +157,8 @@
 </div>
 
 <script src="{{ url_for('static', filename='js/recipe.js') }}"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+
     {% endblock %}
 
 

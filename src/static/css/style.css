@@ -33,7 +33,7 @@ h2 {
 }
 
 .find-beer{
-    margin-top: 10px;
+    margin-top: 30px;
     height: 400px;
     background-image: url(../assets/grain.jpg);
     opacity: .95;
@@ -80,46 +80,58 @@ h2 {
     font-weight: 600;
 }
 
-
-
-.beer-card {
-    max-width: 250px;
-    font-size: 14px;
+.beer-link:hover {
+    text-decoration: none;
 }
 
-.beer-link {
-    color: black;
+.beer-card {
+    border: none;
+    box-shadow: 2px 3px 3px #888888;
+    margin: 10px 0;
+}
+
+.recipe-cards {
+    justify-content: space-evenly;
+}
+
+.card-overlay {
+    width: 100%;
 }
 
 .card-title {
-    background-color: #222;
-    color: #fff;
+    text-align: left;
+    color: #495057;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card-img {
+    border-radius: 0;
+}
+
+.card-logo {
+    width: 40px;
+    margin-right: 10px;
 }
 
 .card-descrip {
-    font-size: 14px;
-    line-height: 1;
-    text-align: left;
+    padding: 5px 10px!important;
 }
 
 .style-list {
-    margin-top: 40px;
-    background-color:#33333305;
+    margin-top: 80px;
+    background-color:#f5f7f7;
     justify-content: center;
     text-align: center;
     align-content: center;
     padding: 15px;
 }
-
 .beer-styles {
+    margin: 10px;
+    padding: 15px 30px;
     justify-content: center;
     text-align: center;
     align-content: center;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-    display: inline-block;
-    float: none;
 }
 
 .main-content {
@@ -138,9 +150,8 @@ h2 {
 .recipe-header {
     position: relative;
     top: -40px;
-    left: calc(42%);
+    margin: 0 auto;
     text-align: center;
-    /* align-items: center; */
     color: #fff;
     padding: 10px 20px;
     background-color: #898c32;
@@ -151,6 +162,10 @@ h2 {
 .jumbo-browse {
     padding: 15px;
     height: 300px;
+}
+
+.browse-header-row {
+    height: 10px;
 }
 
 .browse-header {
@@ -168,9 +183,6 @@ h2 {
     color: grey;
 }
 
-.browse-text{
-    border-right: 1.5px solid rgba(0,0,0,.1);
-}
 
 .pannel-browse {
     padding: 3px;
@@ -191,9 +203,34 @@ h2 {
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    margin: 20px 40px;
-    display: inline-block;
-    float: none;
+    margin: 0 auto;
+}
+
+.style-tag {
+    color: #495057;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.carousel-arrows {
+    cursor: pointer;
+    color: #6c757d;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+}
+
+.left {
+    left: -25px;
+}
+
+.right {
+    right: -25px;
 }
 
 .recipe-div{
@@ -201,4 +238,33 @@ h2 {
     margin-bottom: 60px;
     max-width: 75%;
     line-height: 1;
+}
+
+
+@media only screen and (max-width: 770px) {
+
+    .beer-main {
+            margin:300px 0 50px 0;
+    }
+
+    .browse-tagline {
+        text-align: center;
+        margin-top: 80px;
+        font-size: 22px;
+        color: grey;
+    }
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+    .browse-header {
+       font-size: 46px;
+        text-align: center;
+        /* background-color: #2222227d; */
+        margin-top: 200px;
+        color: #fff;
+    }
+
 }
